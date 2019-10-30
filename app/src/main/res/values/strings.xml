@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Noties</string>
+    <string name="app_name_pantalla">·NOTIES·</string>
+    <string name="btPrimerAnio">1° año</string>
+    <string name="btMatematica">Matemática</string>
+    <string name="title_activity_actividad_matematica">ActividadMatematica</string>
+    <string name="tab_text_1">Principal</string>
+    <string name="tab_text_2">Extras</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btVerPdf">VER PDF</string>
+    <string name="seleccionAño">seleccionAño</string>
+    <string name="seleccionAño2">SELECCIONE AÑO</string>
+    <string name="btSegundoAnio">2° AÑO</string>
+    <string name="tvMateria">SELECCIONE MATERIA</string>
+    <string name="btLogica">LÓGICA Y ESTRUCTURA DE DATOS</string>
+    <string name="btTecnologia">TECNOLOGÍA DE LA INFORMACIÓN</string>
+    <string name="btIngenieriaI">INGENIERÍA DE SOFTWARE I</string>
+    <string name="btAdministracion">Administración</string>
+    <string name="btInglesI">INGLÉS I</string>
+    <string name="title_activity_actividad_logica">ActividadLogica</string>
+    <string name="Unidad">Unidad 1</string>
+    <string name="tvPrueba">ACÁ VAN LAS COSAS DEL PRINCIPAL LOGICA</string>
+    <string name="tvPruebaExtras">ACÁ VAN LAS COSAS EXTRAS DE LOGICA</string>
+    <string name="btEnviar">Enviar</string>
+    <string name="btBotonVerPdf">Ver PDF</string>
+    <string name="btDescargar">Descargar</string>
+    <string name="btpagina_web">Pagina Web</string>
+    <string name="tx_explicacion">Seleccione año para ver sus materias. (El contenido de cada materia se divide en “Principal” y “Extras”).</string>
+    <string name="tx_advertencia">El contenido compartido en “Extras”, no asegura que este formalmente correcto a cargo de la institución, su uso queda totalmente a criterio del usuario.</string>
+    <string name="btVerLink">VER LINK</string>
+    <string name="renglon1">-Conjuntos</string>
+    <string name="renglon2">-Arreglos</string>
+    <string name="renglon3">-Diagramas</string>
+    <string name="l.renglon1">-Metodos</string>
+    <string name="btIngenieria">Ingeniería de Software I</string>
+    <string name="btBotonVerPdf2">ver pdf</string>
+    <string name="nombre_matematica">MATEMÁTICAS</string>
+    <string name="name_configuracion">Configuración</string>
+    <string name="unidad2">Unidad 2</string>
+    <string name="link1">-Link 1</string>
+    <string name="name_ing">INGENIERÍA DE SOFTWARE I</string>
+    <string name="name_link">-Link</string>
+    <string name="tema">-Tema</string>
+
+
+</resources>

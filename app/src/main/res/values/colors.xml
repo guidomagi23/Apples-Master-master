@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D16D6565</color>
+    <color name="colorPrimaryDark">#B582918F</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fondo_renglon">#257B7B7B</color>
+</resources>

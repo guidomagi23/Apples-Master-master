@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/actor</item>
+        <item>@font/advent_pro_bold</item>
+        <item>@font/aldrich</item>
+        <item>@font/antic_slab</item>
+        <item>@font/anton</item>
+        <item>@font/arbutus</item>
+        <item>@font/arimo_italic</item>
+        <item>@font/average</item>
+        <item>@font/baloo_bhaina</item>
+        <item>@font/biorhyme_extrabold</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/candal</item>
+    </array>
+</resources>

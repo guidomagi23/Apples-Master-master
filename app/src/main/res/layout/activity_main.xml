@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#202732"
+
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bienvenida"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="@font/arbutus"
+                android:gravity="center"
+                android:text="@string/seleccionAño2"
+                android:textSize="24sp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/btPrimerAnio"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/boton_redondo"
+                android:fontFamily="@font/aldrich"
+                android:onClick="accionarBotonPrimero"
+                android:text="@string/btPrimerAnio"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/btSegundoAnio"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/boton_redondo"
+                android:fontFamily="@font/aldrich"
+                android:onClick="accionarBotonPrimero"
+                android:text="@string/btSegundoAnio"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="337dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:foregroundGravity="center"
+                android:gravity="center_horizontal"
+                android:text="@string/tx_explicacion"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btPrimerAnio2"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/boton_redondo"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/name_configuracion"
+                android:textAllCaps="true"
+                android:textColorHint="#00AF1313"
+
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
