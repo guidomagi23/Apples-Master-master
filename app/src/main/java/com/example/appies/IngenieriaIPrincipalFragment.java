@@ -12,7 +12,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.github.barteksc.pdfviewer.PDFView;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf10;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf2;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf3;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf4;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf5;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf6;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf7;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf8;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf9;
 
 
 /**
@@ -97,17 +106,81 @@ public class IngenieriaIPrincipalFragment extends Fragment {
             }
         });
 
-
-       /* vista = inflater.inflate(R.layout.fragment_ingenieriai_principal, container, false);
         btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf2);
         btVerPdf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf.class);
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf2.class);
                 getActivity().startActivity(prueba);
             }
-        });*/
+        });
+
+        btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf3);
+        btVerPdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf3.class);
+                getActivity().startActivity(prueba);
+            }
+        });
+
+        btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf4);
+        btVerPdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf4.class);
+                getActivity().startActivity(prueba);
+            }
+        });
+
+        btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf5);
+        btVerPdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf5.class);
+                getActivity().startActivity(prueba);
+            }
+        });
+
+        btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf6);
+        btVerPdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf6.class);
+                getActivity().startActivity(prueba);
+            }
+        });
+
+        btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf7);
+        btVerPdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf7.class);
+                getActivity().startActivity(prueba);
+            }
+        });
+
+        btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf8);
+        btVerPdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf8.class);
+                getActivity().startActivity(prueba);
+            }
+        });
+
+        btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf9);
+        btVerPdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf9.class);
+                getActivity().startActivity(prueba);
+            }
+        });
+
+
         return vista;
+
 
 
     }
@@ -152,13 +225,47 @@ public class IngenieriaIPrincipalFragment extends Fragment {
     }
 
 
-    /*public void accionarBotonPdf2(View view){
-        //Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf.class);
-      //  getActivity().startActivity(prueba);
+   /* public void accionarBotonPdf(View view){
+        Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf.class);
+        getActivity().startActivity(prueba);
         PDFView pdfView = null;
         super.onCreate();
         setContentView(R.layout.activity_actividad_visualizador_pdf);
         pdfView = (PDFView) pdfView.findViewById(R.id.pdfView);
         pdfView.fromAsset("ingenieriaI_principal_unidad1/p.pdf").load();
     }*/
+   // public void accionarBotonPdf2(View view) {
+        //setContentView(R.layout.activity_actividad_visualizador_pdf);
+        //pdfView = (PDFView) findViewById(R.id.pdfView);
+       // pdfView.fromAsset("p.pdf").load();
+   // }
+
+
+
+/*
+    public void accionarBotonPdf2(View view){
+        Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf2.class);
+        getActivity().startActivity(prueba);
+    }
+
+    public void accionarBotonPdf3(View view){
+        Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf3.class);
+        getActivity().startActivity(prueba);
+    }
+
+    public void accionarBotonPdf4(View view){
+        Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf4.class);
+        getActivity().startActivity(prueba);
+    }
+
+    public void accionarBotonPdf5(View view){
+        Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf5.class);
+        getActivity().startActivity(prueba);
+    }
+
+    public void accionarBotonPdf6(View view){
+        Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf6.class);
+        getActivity().startActivity(prueba);
+    }
+*/
 }

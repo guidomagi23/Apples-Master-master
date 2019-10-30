@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_noties_round"
@@ -14,8 +13,20 @@
         android:roundIcon="@mipmap/ic_noties_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".PruebaTabLayout"></activity>
-        <activity android:name=".ActividadVisualizadorPdf" />
+        <activity android:name=".AcercaDe"></activity>
+        <activity android:name=".PruebaTabLayout" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf2" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf3" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf4" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf5" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf6" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf7" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf8" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf9" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf10" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf11" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf12" />
         <activity
             android:name=".ActividadMatematica"
             android:label="@string/title_activity_actividad_matematica"

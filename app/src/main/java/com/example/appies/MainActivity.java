@@ -59,5 +59,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void accionarBotonAcercaDe(View view){
+        Intent acerca = new Intent(this, AcercaDe.class);
+        startActivity(acerca);
+    }
 
 }

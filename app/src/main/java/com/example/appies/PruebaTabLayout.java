@@ -80,8 +80,8 @@ public class PruebaTabLayout extends AppCompatActivity {
         emailIntent.putExtra(Intent.EXTRA_EMAIL, TO);
         emailIntent.putExtra(Intent.EXTRA_CC, CC);
         // Esto podrás modificarlo si quieres, el asunto y el cuerpo del mensaje
-        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Material para lógica y estructura de datos");
-        emailIntent.putExtra(Intent.EXTRA_TEXT, "Adjunta aquí tus archivos o links");
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Material para ingeniería de software I");
+        emailIntent.putExtra(Intent.EXTRA_TEXT, "...");
 
         try {
             startActivity(Intent.createChooser(emailIntent, "Enviar email..."));

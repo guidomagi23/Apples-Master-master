@@ -38,14 +38,14 @@ tools:context=".IngenieriaIExtrasFragment">
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/tvIsoResumenes"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="32dp"
                         android:layout_marginEnd="32dp"
                         android:layout_marginBottom="8dp"
-                        android:text="@string/Unidad"
+                        android:text="@string/tvIsoResumenes"
                         android:textSize="28sp" />
 
                 </LinearLayout>
@@ -60,7 +60,7 @@ tools:context=".IngenieriaIExtrasFragment">
                         android:background="#4A5E4F4F">
 
                         <TextView
-                            android:id="@+id/textView5"
+                            android:id="@+id/tvIsoExtras1"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -69,11 +69,11 @@ tools:context=".IngenieriaIExtrasFragment">
                             android:layout_marginEnd="8dp"
                             android:layout_marginBottom="13dp"
                             android:fontFamily="@font/average"
-                            android:text="@string/name_link"
+                            android:text="@string/tvIsoExtras1"
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/btVerPdf"
+                            android:id="@+id/btBotonVerPdf10"
                             android:layout_width="70dp"
                             android:layout_height="30dp"
                             android:layout_marginStart="8dp"
@@ -81,7 +81,7 @@ tools:context=".IngenieriaIExtrasFragment">
                             android:layout_marginEnd="12dp"
                             android:layout_marginBottom="8dp"
                             android:background="@drawable/boton_circular"
-                            android:text="@string/btVerLink" />
+                            android:text="@string/btBotonVerPdf" />
 
                     </TableRow>
 
@@ -90,7 +90,7 @@ tools:context=".IngenieriaIExtrasFragment">
                         android:layout_height="325dp">
 
                         <TextView
-                            android:id="@+id/textView8"
+                            android:id="@+id/tvIsoExtras2"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -99,11 +99,11 @@ tools:context=".IngenieriaIExtrasFragment">
                             android:layout_marginEnd="8dp"
                             android:layout_marginBottom="13dp"
                             android:fontFamily="@font/average"
-                            android:text="@string/name_link"
+                            android:text="@string/tvIsoExtras2"
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/btVerPdf3"
+                            android:id="@+id/btBotonVerPdf11"
                             android:layout_width="70dp"
                             android:layout_height="30dp"
                             android:layout_marginStart="8dp"
@@ -111,7 +111,7 @@ tools:context=".IngenieriaIExtrasFragment">
                             android:layout_marginEnd="12dp"
                             android:layout_marginBottom="8dp"
                             android:background="@drawable/boton_circular"
-                            android:text="@string/btVerLink" />
+                            android:text="@string/btVerPdf" />
 
                     </TableRow>
 
@@ -121,7 +121,7 @@ tools:context=".IngenieriaIExtrasFragment">
                         android:background="#4A5E4F4F">
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/tvIsoExtras3"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -130,11 +130,11 @@ tools:context=".IngenieriaIExtrasFragment">
                             android:layout_marginEnd="8dp"
                             android:layout_marginBottom="13dp"
                             android:fontFamily="@font/average"
-                            android:text="@string/name_link"
+                            android:text="@string/tvIsoExtras3"
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/btVerPdf2"
+                            android:id="@+id/btBotonVerPdf12"
                             android:layout_width="70dp"
                             android:layout_height="30dp"
                             android:layout_marginStart="8dp"
@@ -142,7 +142,7 @@ tools:context=".IngenieriaIExtrasFragment">
                             android:layout_marginEnd="12dp"
                             android:layout_marginBottom="8dp"
                             android:background="@drawable/boton_circular"
-                            android:text="@string/btVerLink" />
+                            android:text="@string/btVerPdf" />
 
                     </TableRow>
 

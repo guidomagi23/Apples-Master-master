@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.appies.ActividadVisualizadorPdf;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf;
 import com.example.appies.R;
 
 
@@ -74,7 +74,7 @@ public class MatematicaPrincipalFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         vista = inflater.inflate(R.layout.fragment_matematica_principal, container, false);// Inflate the layout for this fragment
-        btVerPdf = (Button) vista.findViewById(R.id.btVerPdf);
+        btVerPdf = (Button) vista.findViewById(R.id.btBotonVerPdf9);
         btVerPdf.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                accionarBotonPdf();

@@ -33,7 +33,6 @@
     <string name="renglon1">-Conjuntos</string>
     <string name="renglon2">-Arreglos</string>
     <string name="renglon3">-Diagramas</string>
-    <string name="l.renglon1">-Metodos</string>
     <string name="btIngenieria">Ingeniería de Software I</string>
     <string name="btBotonVerPdf2">ver pdf</string>
     <string name="nombre_matematica">MATEMÁTICAS</string>
@@ -43,6 +42,22 @@
     <string name="name_ing">INGENIERÍA DE SOFTWARE I</string>
     <string name="name_link">-Link</string>
     <string name="tema">-Tema</string>
+    <string name="tvIsoPrincipal1">Primera Parte</string>
+    <string name="tvIsoPrincipal2">Segunda Parte</string>
+    <string name="tvIsoPrincipal3">Unidad 2</string>
+    <string name="tvIsoPrincipal4">Casos de Uso</string>
+    <string name="tvIsoPrincipal5">Casos de uso - Cajero</string>
+    <string name="tvIsoUnidad3">Unidad 3</string>
+    <string name="tvIsoUnidad4">Unidad 4</string>
+    <string name="tvIsoPrincipal6">Unidad 3</string>
+    <string name="tvIsoPrincipal7">Unidad 4</string>
+    <string name="tvIsoPrincipal9">Diagrama de clases - Relaciones</string>
+    <string name="tvIsoPrincipal10">Diagrama de clases - Explicación y ejemplo</string>
+    <string name="tvIsoResumenes">Resumenes</string>
+    <string name="tvIsoExtras1">1° Resumen sobre 1er parcial 2018</string>
+    <string name="tvIsoExtras2">2° Resumen sobre 1er parcial 2018</string>
+    <string name="tvIsoExtras3">1° Resumen sobre 2do parcial 2018</string>
+    <string name="btAcercaDe">Acerca de</string>
 
 
 </resources>

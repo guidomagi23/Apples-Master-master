@@ -88,19 +88,20 @@
                 android:textSize="12sp" />
 
             <Button
-                android:id="@+id/btPrimerAnio2"
-                android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:id="@+id/btAcercaDe"
+                android:layout_width="152dp"
+                android:layout_height="32dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="32dp"
                 android:background="@drawable/boton_redondo"
                 android:fontFamily="@font/aldrich"
-                android:text="@string/name_configuracion"
+                android:onClick="accionarBotonAcercaDe"
+                android:text="@string/btAcercaDe"
                 android:textAllCaps="true"
-                android:textColorHint="#00AF1313"
 
+                android:textColorHint="#00AF1313"
                 android:textSize="18sp" />
 
         </LinearLayout>

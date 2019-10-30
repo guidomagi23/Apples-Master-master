@@ -27,8 +27,8 @@ public class ActividadSeleccionarMateriaPrimero extends AppCompatActivity {
         startActivity(logica);
 
 
-        /*
-        setContentView(R.layout.activity_actividad_visualizador_pdf);
+
+       /*setContentView(R.layout.activity_actividad_visualizador_pdf);
         pdfView = (PDFView)findViewById(R.id.pdfView);
         pdfView.fromAsset("p.pdf").load();
         */

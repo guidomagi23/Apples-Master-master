@@ -38,7 +38,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/tvIsoResumenes"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -60,7 +60,7 @@
                         android:background="#4A5E4F4F">
 
                         <TextView
-                            android:id="@+id/textView5"
+                            android:id="@+id/tvIsoExtras1"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -73,7 +73,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/btVerPdf"
+                            android:id="@+id/btBotonVerPdf10"
                             android:layout_width="70dp"
                             android:layout_height="30dp"
                             android:layout_marginStart="8dp"
@@ -90,7 +90,7 @@
                         android:layout_height="325dp">
 
                         <TextView
-                            android:id="@+id/textView8"
+                            android:id="@+id/tvIsoExtras2"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -103,7 +103,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/btVerPdf3"
+                            android:id="@+id/btBotonVerPdf11"
                             android:layout_width="70dp"
                             android:layout_height="30dp"
                             android:layout_marginStart="8dp"
@@ -121,7 +121,7 @@
                         android:background="#4A5E4F4F">
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/tvIsoExtras3"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -134,7 +134,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/btVerPdf2"
+                            android:id="@+id/btBotonVerPdf12"
                             android:layout_width="70dp"
                             android:layout_height="30dp"
                             android:layout_marginStart="8dp"
