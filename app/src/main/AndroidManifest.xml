@@ -34,7 +34,9 @@
             android:label="@string/title_activity_actividad_matematica"
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity android:name=".ActividadSeleccionarMateriaPrimero" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
