@@ -1,14 +1,28 @@
 package com.example.appies.visualizadores.primero.isoI;
 
+import android.app.DownloadManager;
+import android.content.Context;
+import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.appies.R;
 import com.github.barteksc.pdfviewer.PDFView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class ActividadVisualizadorPdf7 extends AppCompatActivity {
 
+    FloatingActionButton buttonDesc;
+    DownloadManager downloadManager;
     PDFView pdfView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,9 +30,21 @@ public class ActividadVisualizadorPdf7 extends AppCompatActivity {
         setContentView(R.layout.activity_actividad_visualizador_pdf);
 
         pdfView = (PDFView)findViewById(R.id.pdfView);
-       pdfView.fromAsset("ingenieriaI_principal_unidad4/Unidad_4-V2.pdf").load();
-      //  new RetrievePDFStream().execute("http://prueba610760088.files.wordpress.com/2019/10/p.pdf");
+       //pdfView.fromAsset("ingenieriaI_principal_unidad4/Unidad_4-V2.pdf").load();
+        new RetrievePDFStream().execute("https://prueba610760088.files.wordpress.com/2019/10/unidad_4-v2.pdf");
        //new RetrievePDFBytes().execute("http://cursoslared.com/recursoslibre/TutorialAndroidPrincipiantes.pdf");
+
+        buttonDesc = (FloatingActionButton) findViewById(R.id.btDescargar);
+        buttonDesc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
+                Uri uri = Uri.parse("https://prueba610760088.files.wordpress.com/2019/10/unidad_4-v2.pdf");
+                DownloadManager.Request request = new DownloadManager.Request(uri);
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                Long reference = downloadManager.enqueue(request);
+            }
+        });
     }
 
 
@@ -51,7 +77,7 @@ public class ActividadVisualizadorPdf7 extends AppCompatActivity {
         }
     }*/
 
-   /* class RetrievePDFStream extends AsyncTask<String,Void, InputStream> {
+    class RetrievePDFStream extends AsyncTask<String,Void, InputStream> {
  
 
         @Override
@@ -73,5 +99,5 @@ public class ActividadVisualizadorPdf7 extends AppCompatActivity {
         protected void onPostExecute(InputStream inputStream){
             pdfView.fromStream(inputStream).load();
         }
-    }*/
+    }
 }
