@@ -52,6 +52,7 @@
 
                     <Button
 
+                        android:id="@+id/btProbSoc"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
@@ -59,10 +60,11 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:background="@drawable/boton_sin_puntas"
-                        android:text="Problemas Socio Contemp" />
+                        android:text="@string/btProbSoc" />
 
                     <Button
 
+                        android:id="@+id/btUdi"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
@@ -70,7 +72,7 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:background="@drawable/boton_sin_puntas"
-                        android:text="UDI II" />
+                        android:text="@string/btUdi2" />
 
                 </TableRow>
 
@@ -81,27 +83,29 @@
 
                     <Button
 
+                        android:id="@+id/btIngles2"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
 
-                        android:text="Inglés II" />
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btIngles2" />
 
                     <Button
 
+                        android:id="@+id/btIDE"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
 
-                        android:text="IDE" />
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btIDE" />
                 </TableRow>
 
                 <TableRow
@@ -111,27 +115,29 @@
 
                     <Button
 
+                        android:id="@+id/btEstadistica"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
 
-                        android:text="Estadística" />
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btEstadistica" />
 
                     <Button
 
+                        android:id="@+id/btProgramacion"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
 
-                        android:text="Programación I" />
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btProgramacion" />
 
                 </TableRow>
 
@@ -141,6 +147,7 @@
                     android:gravity="center">
 
                     <Button
+                        android:id="@+id/btBD"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
@@ -148,19 +155,20 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:background="@drawable/boton_sin_puntas"
-                        android:text="Base de Datos I" />
+                        android:text="@string/btBD" />
 
                     <Button
 
+                        android:id="@+id/btISO2"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
 
-                        android:text="Ingeniería de software II" />
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btISO2" />
 
                 </TableRow>
 
@@ -171,15 +179,16 @@
 
                     <Button
 
+                        android:id="@+id/btPracProf"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
 
-                        android:text="Práctica Prof. I" />
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btPracProf" />
 
                 </TableRow>
 

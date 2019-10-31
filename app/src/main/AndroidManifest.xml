@@ -29,10 +29,6 @@
         <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf12" />
         <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf13" />
         <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf14" />
-        <activity
-            android:name=".ActividadMatematica"
-            android:label="@string/title_activity_actividad_matematica"
-            android:theme="@style/Theme.Design.NoActionBar" />
         <activity android:name=".ActividadSeleccionarMateriaPrimero" />
         <activity android:name=".MainActivity"/>
 

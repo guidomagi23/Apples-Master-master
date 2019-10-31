@@ -17,10 +17,6 @@ public class ActividadSeleccionarMateriaPrimero extends AppCompatActivity {
         setContentView(R.layout.activity_actividad_seleccionar_materia_primero);
     }
 
-    public void accionarBotonMatematica(View view){
-        Intent matematica = new Intent(this,ActividadMatematica.class);
-        startActivity(matematica);
-    }
 
     public void accionarBotonLogica(View view){
         Intent logica = new Intent(this,PruebaTabLayout.class);

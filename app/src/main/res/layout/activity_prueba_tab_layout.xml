@@ -45,14 +45,16 @@
 
 
             <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabPrinc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Principal" />
+                android:text="@string/tabPrinc" />
 
             <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabExtras"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Extras" />
+                android:text="@string/tabExtras" />
 
 
         </com.google.android.material.tabs.TabLayout>

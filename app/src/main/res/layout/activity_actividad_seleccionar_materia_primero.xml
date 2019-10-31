@@ -73,7 +73,6 @@
                         android:layout_marginBottom="8dp"
                         android:background="@drawable/boton_sin_puntas"
 
-                        android:onClick="accionarBotonMatematica"
                         android:text="@string/btMatematica" />
 
                 </TableRow>
@@ -145,6 +144,7 @@
                     android:gravity="center">
 
                     <Button
+                        android:id="@+id/btComunicacion"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
@@ -152,19 +152,20 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:background="@drawable/boton_sin_puntas"
-                        android:text="Comunicación " />
+                        android:text="@string/btComunicacion" />
 
                     <Button
 
+                        android:id="@+id/btUdi"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
 
-                        android:text="UDI I" />
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btUdi" />
 
                 </TableRow>
 
@@ -175,15 +176,16 @@
 
                     <Button
 
+                        android:id="@+id/btSO"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
 
-                        android:text="SISTEMA OPERATIVO" />
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btSO" />
 
                 </TableRow>
 
