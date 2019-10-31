@@ -104,13 +104,6 @@
                 android:textColorHint="#00AF1313"
                 android:textSize="18sp" />
 
-            <Button
-                android:id="@+id/btEnlace"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="accionarBotonEnlace"
-                android:text="Button" />
-
         </LinearLayout>
     </ScrollView>
 

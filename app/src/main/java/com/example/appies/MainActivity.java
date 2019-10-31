@@ -63,10 +63,10 @@ public class MainActivity extends AppCompatActivity {
         Intent acerca = new Intent(this, AcercaDe.class);
         startActivity(acerca);
     }
-
+/*
     public void accionarBotonEnlace(View view){
         Intent enlace = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=-OWd0tJAK10"));
         startActivity(enlace);
-    }
+    }*/
 
 }
