@@ -30,6 +30,7 @@
         <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf13" />
         <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf14" />
         <activity android:name=".ActividadSeleccionarMateriaPrimero" />
+        <activity android:name=".ActividadSeleccionarMateriaSegundo" />
         <activity android:name=".MainActivity"/>
 
         <activity android:name=".SplashScreen">
