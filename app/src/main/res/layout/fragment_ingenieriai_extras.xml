@@ -38,7 +38,7 @@ tools:context=".IngenieriaIExtrasFragment">
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/tvIsoResumenes"
+                        android:id="@+id/tvIsoTutoriales"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -60,7 +60,7 @@ tools:context=".IngenieriaIExtrasFragment">
                         android:background="#4A5E4F4F">
 
                         <TextView
-                            android:id="@+id/tvIsoExtras1"
+                            android:id="@+id/tvIsoExtras6"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -90,7 +90,7 @@ tools:context=".IngenieriaIExtrasFragment">
                         android:layout_height="325dp">
 
                         <TextView
-                            android:id="@+id/tvIsoExtras2"
+                            android:id="@+id/tvIsoExtras7"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -121,7 +121,7 @@ tools:context=".IngenieriaIExtrasFragment">
                         android:background="#4A5E4F4F">
 
                         <TextView
-                            android:id="@+id/tvIsoExtras3"
+                            android:id="@+id/tvIsoExtras8"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -143,6 +143,221 @@ tools:context=".IngenieriaIExtrasFragment">
                             android:layout_marginBottom="8dp"
                             android:background="@drawable/boton_circular"
                             android:text="@string/btVerPdf" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvIsoTutoriales"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/tvIsoTps"
+                        android:textSize="28sp" />
+
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#4A5E4F4F">
+
+                        <TextView
+                            android:id="@+id/tvIsoExtras6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="13dp"
+                            android:fontFamily="@font/average"
+                            android:text="@string/tvIsoExtras4"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/btBotonVerPdf13"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/boton_circular"
+                            android:text="@string/btBotonVerPdf" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="325dp">
+
+                        <TextView
+                            android:id="@+id/tvIsoExtras7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="13dp"
+                            android:fontFamily="@font/average"
+                            android:text="@string/tvIsoExtras5"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/btBotonVerPdf14"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/boton_circular"
+                            android:text="@string/btVerPdf" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvIsoTutoriales"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/tvIsoTutoriales"
+                        android:textSize="28sp" />
+
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#4A5E4F4F">
+
+                        <TextView
+                            android:id="@+id/tvIsoExtras6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="13dp"
+                            android:fontFamily="@font/average"
+                            android:text="@string/tvIsoExtras6"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/btLink1"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/boton_circular"
+                            android:text="@string/btLink" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="325dp">
+
+                        <TextView
+                            android:id="@+id/tvIsoExtras7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="13dp"
+                            android:fontFamily="@font/average"
+                            android:text="@string/tvIsoExtras7"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/btLink2"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/boton_circular"
+                            android:text="@string/btLink" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="304dp"
+                        android:layout_height="wrap_content"
+                        android:background="#4A5E4F4F">
+
+                        <TextView
+                            android:id="@+id/tvIsoExtras8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="13dp"
+                            android:fontFamily="@font/average"
+                            android:text="@string/tvIsoExtras8"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/btLink3"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/boton_circular"
+                            android:text="@string/btLink" />
 
                     </TableRow>
 

@@ -58,6 +58,14 @@
     <string name="tvIsoExtras2">2° Resumen sobre 1er parcial 2018</string>
     <string name="tvIsoExtras3">1° Resumen sobre 2do parcial 2018</string>
     <string name="btAcercaDe">Acerca de</string>
+    <string name="tvIsoTps">Trabajos Prácticos</string>
+    <string name="tvIsoExtras4">TP N°1 - 2018</string>
+    <string name="tvIsoExtras5">TP N°2 - 2018</string>
+    <string name="tvIsoTutoriales">Videotutoriales</string>
+    <string name="tvIsoExtras6">Introducción a UML</string>
+    <string name="tvIsoExtras7">Diagrama de clases</string>
+    <string name="tvIsoExtras8">Diagrama de estados</string>
+    <string name="btLink">IR</string>
 
 
 </resources>

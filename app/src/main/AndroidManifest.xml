@@ -27,6 +27,8 @@
         <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf10" />
         <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf11" />
         <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf12" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf13" />
+        <activity android:name=".visualizadores.primero.isoI.ActividadVisualizadorPdf14" />
         <activity
             android:name=".ActividadMatematica"
             android:label="@string/title_activity_actividad_matematica"

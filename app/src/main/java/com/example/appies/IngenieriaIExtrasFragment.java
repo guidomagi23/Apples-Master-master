@@ -14,6 +14,8 @@ import android.widget.Button;
 import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf10;
 import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf11;
 import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf12;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf13;
+import com.example.appies.visualizadores.primero.isoI.ActividadVisualizadorPdf14;
 
 
 /**
@@ -34,7 +36,7 @@ public class IngenieriaIExtrasFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    Button btVerPdf;
+    Button btVerPdf, btLink;
     View vista;
 
     private OnFragmentInteractionListener mListener;
@@ -68,6 +70,8 @@ public class IngenieriaIExtrasFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
     }
 
     @Override
@@ -104,6 +108,53 @@ public class IngenieriaIExtrasFragment extends Fragment {
             }
         });
 
+        btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf13);
+        btVerPdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf13.class);
+                getActivity().startActivity(prueba);
+            }
+        });
+
+        btVerPdf= (Button) vista.findViewById(R.id.btBotonVerPdf14);
+        btVerPdf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(getActivity(), ActividadVisualizadorPdf14.class);
+                getActivity().startActivity(prueba);
+            }
+        });
+
+
+        //links
+
+        btLink= (Button) vista.findViewById(R.id.btLink1);
+        btLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=-OWd0tJAK10"));
+                getActivity().startActivity(prueba);
+            }
+        });
+
+        btLink= (Button) vista.findViewById(R.id.btLink2);
+        btLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=7WRYH2ei5Rw"));
+                getActivity().startActivity(prueba);
+            }
+        });
+
+        btLink= (Button) vista.findViewById(R.id.btLink3);
+        btLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent prueba = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=Rk3cPADj__M"));
+                getActivity().startActivity(prueba);
+            }
+        });
 
         return vista;
     }

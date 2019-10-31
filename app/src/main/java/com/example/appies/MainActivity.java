@@ -21,17 +21,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //buttonDesc = (Button)findViewById(R.id.btDescargar);
-        // buttonDesc.setOnClickListener(new View.OnClickListener() {
-        //   @Override
-        //   public void onClick(View v) {
-        //       downloadManager = (DownloadManager)getSystemService(Context.DOWNLOAD_SERVICE);
-        //       Uri uri = Uri.parse("https://prueba610760088.files.wordpress.com/2019/10/p.pdf");
-        //       DownloadManager.Request request = new DownloadManager.Request(uri);
-        //       request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-        //       Long reference = downloadManager.enqueue(request);
-        //   }
-        //});
+        /*buttonDesc = (Button)findViewById(R.id.btDescargar);
+         buttonDesc.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               downloadManager = (DownloadManager)getSystemService(Context.DOWNLOAD_SERVICE);
+               Uri uri = Uri.parse("https://prueba610760088.files.wordpress.com/2019/10/p.pdf");
+              DownloadManager.Request request = new DownloadManager.Request(uri);
+               request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+               Long reference = downloadManager.enqueue(request);
+           }
+        });*/
     }
 
     public void accionarBotonPrimero(View view){
@@ -62,6 +62,11 @@ public class MainActivity extends AppCompatActivity {
     public void accionarBotonAcercaDe(View view){
         Intent acerca = new Intent(this, AcercaDe.class);
         startActivity(acerca);
+    }
+
+    public void accionarBotonEnlace(View view){
+        Intent enlace = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=-OWd0tJAK10"));
+        startActivity(enlace);
     }
 
 }

@@ -50,7 +50,7 @@
                         android:background="#4A5E4F4F">
 
                         <TextView
-                            android:id="@+id/tvIsoExtras1"
+                            android:id="@+id/tvIsoExtras6"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -79,7 +79,7 @@
                         android:layout_height="325dp">
 
                         <TextView
-                            android:id="@+id/tvIsoExtras2"
+                            android:id="@+id/tvIsoExtras7"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -110,7 +110,7 @@
                         android:background="#4A5E4F4F">
 
                         <TextView
-                            android:id="@+id/tvIsoExtras3"
+                            android:id="@+id/tvIsoExtras8"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -145,7 +145,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvIsoResumenes"
+                    android:id="@+id/tvIsoTutoriales"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -179,7 +179,7 @@
                         android:textSize="18sp" />
 
                     <Button
-                        android:id="@+id/btBotonVerPdf12"
+                        android:id="@+id/btLink3"
                         android:layout_width="60dp"
                         android:layout_height="30dp"
                         android:layout_marginStart="8dp"
@@ -208,7 +208,7 @@
                         android:textSize="18sp" />
 
                     <Button
-                        android:id="@+id/btBotonVerPdf11"
+                        android:id="@+id/btLink2"
                         android:layout_width="60dp"
                         android:layout_height="30dp"
                         android:layout_marginStart="8dp"
@@ -239,7 +239,7 @@
                         android:textSize="18sp" />
 
                     <Button
-                        android:id="@+id/btBotonVerPdf10"
+                        android:id="@+id/btLink1"
                         android:layout_width="60dp"
                         android:layout_height="30dp"
                         android:layout_marginStart="8dp"

@@ -1,6 +1,7 @@
 package com.example.appies;
 
 import android.app.DownloadManager;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -178,6 +179,18 @@ public class IngenieriaIPrincipalFragment extends Fragment {
             }
         });
 
+
+       /* buttonDesc = (Button) vista.findViewById(R.id.btDescargar);
+        buttonDesc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                downloadManager = (DownloadManager) getActivity().getSystemService(Context.DOWNLOAD_SERVICE);
+                Uri uri = Uri.parse("https://prueba610760088.files.wordpress.com/2019/10/p.pdf");
+                DownloadManager.Request request = new DownloadManager.Request(uri);
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                Long reference = downloadManager.enqueue(request);
+            }
+        });*/
 
         return vista;
 
