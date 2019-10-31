@@ -66,6 +66,22 @@
     <string name="tvIsoExtras7">Diagrama de clases</string>
     <string name="tvIsoExtras8">Diagrama de estados</string>
     <string name="btLink">IR</string>
+    <string name="text_acerca_1">Términos de Uso:</string>
+    <string name="text_acerca_2">¡Bienvenido a Noties!</string>
+    <string name="text_acerca_3">Estos Términos de uso rigen su uso de Noties y proporcionan información sobre el Servicio de Noties, que se describe a continuación.  Cuando usa Noties, acepta estos términos.</string>
+    <string name="text_acerca_4">El Servicio de Noties es producto propio regularizado, provisto por sus desarroladores, por lo tanto, constituyen un acuerdo entre usted y Noties Serv.</string>
+    <string name="text_acerca_5">El servicio de Noties</string>
+    <string name="text_acerca_6">Aceptamos proporcionarle el Servicio de Noties.  El Servicio incluye todas las características, aplicaciones, servicios, tecnologías y software de Noties que ofrecemos para avanzar en la misión de Noties: facilitar el acceso al material de estudio y más.</string>
+    <string name="text_acerca_7">Desarroladores: Silvestre Adriel y Magi Guido</string>
+    <string name="text_acerca_8">Colaboración especial: Prof. Mario Finos</string>
+    <string name="text_acerca_9">Actualizado: 31/10/2019</string>
+
+
+
+
+
+
+
 
 
 </resources>

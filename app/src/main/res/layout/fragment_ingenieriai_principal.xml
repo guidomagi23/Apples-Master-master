@@ -51,7 +51,7 @@ tools:context=".IngenieriaIPrincipalFragment">
 
                         <TextView
                             android:id="@+id/tvIsoPrincipal1"
-                            android:layout_width="match_parent"
+                            android:layout_width="250dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
@@ -80,7 +80,7 @@ tools:context=".IngenieriaIPrincipalFragment">
 
                         <TextView
                             android:id="@+id/tvIsoPrincipal3"
-                            android:layout_width="match_parent"
+                            android:layout_width="250dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
@@ -136,7 +136,7 @@ tools:context=".IngenieriaIPrincipalFragment">
 
                     <TextView
                         android:id="@+id/tvIsoPrincipal3"
-                        android:layout_width="match_parent"
+                        android:layout_width="250dp"
                         android:layout_height="match_parent"
                         android:layout_margin="8dp"
                         android:layout_marginStart="8dp"
@@ -165,7 +165,7 @@ tools:context=".IngenieriaIPrincipalFragment">
 
                     <TextView
                         android:id="@+id/tvIsoPrincipal9"
-                        android:layout_width="match_parent"
+                        android:layout_width="250dp"
                         android:layout_height="match_parent"
                         android:layout_margin="8dp"
                         android:layout_marginStart="8dp"
@@ -196,7 +196,7 @@ tools:context=".IngenieriaIPrincipalFragment">
 
                     <TextView
                         android:id="@+id/tvIsoPrincipal10"
-                        android:layout_width="match_parent"
+                        android:layout_width="250dp"
                         android:layout_height="match_parent"
                         android:layout_margin="8dp"
                         android:layout_marginStart="8dp"
@@ -245,7 +245,7 @@ tools:context=".IngenieriaIPrincipalFragment">
 
                     <TextView
                         android:id="@+id/tvIsoPrincipal7"
-                        android:layout_width="wrap_content"
+                        android:layout_width="250dp"
                         android:layout_height="match_parent"
                         android:layout_margin="8dp"
                         android:layout_marginStart="8dp"
@@ -293,7 +293,7 @@ tools:context=".IngenieriaIPrincipalFragment">
 
                     <TextView
                         android:id="@+id/tvIsoPrincipal7"
-                        android:layout_width="wrap_content"
+                        android:layout_width="250dp"
                         android:layout_height="match_parent"
                         android:layout_margin="8dp"
                         android:layout_marginStart="8dp"
@@ -322,8 +322,8 @@ tools:context=".IngenieriaIPrincipalFragment">
 
                     <TextView
                         android:id="@+id/tvIsoPrincipal9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
                         android:layout_margin="8dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="12dp"
@@ -353,8 +353,8 @@ tools:context=".IngenieriaIPrincipalFragment">
 
                     <TextView
                         android:id="@+id/tvIsoPrincipal10"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
                         android:layout_margin="8dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="12dp"
@@ -376,6 +376,17 @@ tools:context=".IngenieriaIPrincipalFragment">
                         android:text="@string/btVerPdf" />
 
                 </TableRow>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp" />
             </LinearLayout>
 
         </LinearLayout>

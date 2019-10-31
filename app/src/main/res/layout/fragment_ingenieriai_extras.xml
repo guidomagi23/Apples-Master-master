@@ -57,12 +57,13 @@ tools:context=".IngenieriaIExtrasFragment">
                     <TableRow
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#4A5E4F4F">
+                        android:background="#4A5E4F4F"
+                        android:gravity="left">
 
                         <TextView
                             android:id="@+id/tvIsoExtras6"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
                             android:layout_marginTop="12dp"
@@ -91,8 +92,8 @@ tools:context=".IngenieriaIExtrasFragment">
 
                         <TextView
                             android:id="@+id/tvIsoExtras7"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
                             android:layout_marginTop="12dp"
@@ -122,8 +123,8 @@ tools:context=".IngenieriaIExtrasFragment">
 
                         <TextView
                             android:id="@+id/tvIsoExtras8"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
                             android:layout_marginTop="12dp"
@@ -184,7 +185,7 @@ tools:context=".IngenieriaIExtrasFragment">
 
                         <TextView
                             android:id="@+id/tvIsoExtras6"
-                            android:layout_width="match_parent"
+                            android:layout_width="250dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
@@ -214,7 +215,7 @@ tools:context=".IngenieriaIExtrasFragment">
 
                         <TextView
                             android:id="@+id/tvIsoExtras7"
-                            android:layout_width="match_parent"
+                            android:layout_width="250dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
@@ -276,7 +277,7 @@ tools:context=".IngenieriaIExtrasFragment">
 
                         <TextView
                             android:id="@+id/tvIsoExtras6"
-                            android:layout_width="match_parent"
+                            android:layout_width="250dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
@@ -306,7 +307,7 @@ tools:context=".IngenieriaIExtrasFragment">
 
                         <TextView
                             android:id="@+id/tvIsoExtras7"
-                            android:layout_width="match_parent"
+                            android:layout_width="250dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
@@ -337,7 +338,7 @@ tools:context=".IngenieriaIExtrasFragment">
 
                         <TextView
                             android:id="@+id/tvIsoExtras8"
-                            android:layout_width="match_parent"
+                            android:layout_width="250dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
                             android:layout_marginStart="8dp"
