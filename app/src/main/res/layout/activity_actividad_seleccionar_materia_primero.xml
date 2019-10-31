@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActividadSeleccionarMateriaPrimero"
     android:background="#202732"
-    >
+    tools:context=".ActividadSeleccionarMateriaPrimero">
 
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -26,15 +26,16 @@
                 <TextView
                     android:id="@+id/tvMateria"
                     android:layout_width="297dp"
-                    android:layout_height="77dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center"
+                    android:layout_margin="5dp"
                     android:layout_marginLeft="32dp"
                     android:layout_marginRight="32dp"
-                    android:layout_marginBottom="32dp"
+                    android:layout_marginBottom="0dp"
                     android:fontFamily="@font/abhaya_libre_bold"
                     android:gravity="center"
                     android:text="@string/tvMateria"
-                    android:textSize="30sp"
+                    android:textSize="24sp"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:visibility="visible" />
@@ -193,5 +194,25 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginStart="339dp"
+        android:layout_marginTop="659dp"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="659dp"
+        android:onClick="accionarBotonEnviar"
+        app:backgroundTint="#C1FF5151"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

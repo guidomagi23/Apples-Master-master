@@ -39,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(primero);
     }
 
+    public void accionarBotonSegundo(View view){
+        Intent segundo = new Intent(this, ActividadSeleccionarMateriaSegundo.class);
+        startActivity(segundo);
+    }
+
     public void accionarBotonEnviar(View view){
         String[] TO = {"contacto@seogalicia.es"}; //aquí pon tu correo
         String[] CC = {""};

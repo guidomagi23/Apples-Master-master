@@ -69,11 +69,11 @@
                 android:layout_marginBottom="32dp"
                 android:background="@drawable/boton_redondo"
                 android:fontFamily="@font/aldrich"
+                android:onClick="accionarBotonSegundo"
                 android:text="@string/btSegundoAnio"
                 android:textAllCaps="true"
-                android:textSize="18sp"
 
-                />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView2"
