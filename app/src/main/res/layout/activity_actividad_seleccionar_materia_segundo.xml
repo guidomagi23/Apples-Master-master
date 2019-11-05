@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActividadSeleccionarMateriaPrimero"
-    android:background="#202732"
-    >
+    android:background="#D8131111"
+    tools:context=".ActividadSeleccionarMateriaPrimero">
 
 
     <ScrollView

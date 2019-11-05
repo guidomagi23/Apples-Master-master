@@ -16,9 +16,11 @@
 
         <TextView
             android:id="@+id/tvIsoExtras6"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:background="#D8131111"
+            android:gravity="center"
             android:text="@string/app_name_pantalla"
             android:textColor="#C1F0DCDC"
             android:textSize="24sp"
@@ -48,13 +50,13 @@
                 android:id="@+id/tabPrinc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tabPrinc" />
+                android:text="@string/tab_text_1" />
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/tabExtras"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tabExtras" />
+                android:text="@string/tab_text_2" />
 
 
         </com.google.android.material.tabs.TabLayout>
