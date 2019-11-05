@@ -26,6 +26,11 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C1FF5151" />
+
         <TextView
             android:id="@+id/textView12"
             android:layout_width="match_parent"
@@ -36,6 +41,8 @@
             android:textColor="#FFFFFF"
             android:textSize="26sp"
             android:textStyle="bold" />
+
+
 
         <com.google.android.material.tabs.TabLayout
 
