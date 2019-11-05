@@ -26,13 +26,13 @@
                 <TextView
                     android:id="@+id/tvMateria"
                     android:layout_width="297dp"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="5dp"
                     android:layout_marginLeft="32dp"
                     android:layout_marginRight="32dp"
                     android:layout_marginBottom="0dp"
-                    android:fontFamily="@font/abhaya_libre_bold"
+                    android:fontFamily="@font/arbutus"
                     android:gravity="center"
                     android:text="@string/tvMateria"
                     android:textSize="24sp"
@@ -53,28 +53,16 @@
 
                     <Button
 
-                        android:id="@+id/btProbSoc"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:id="@+id/btISO2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
+
                         android:background="@drawable/boton_sin_puntas"
-                        android:text="@string/btProbSoc" />
-
-                    <Button
-
-                        android:id="@+id/btUdi"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
-                        android:text="@string/btUdi2" />
-
+                        android:text="@string/btISO2" />
                 </TableRow>
 
                 <TableRow
@@ -84,22 +72,28 @@
 
                     <Button
 
-                        android:id="@+id/btIngles2"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:id="@+id/btProgramacion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
 
                         android:background="@drawable/boton_sin_puntas"
-                        android:text="@string/btIngles2" />
+                        android:text="@string/btProgramacion" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
 
                     <Button
 
                         android:id="@+id/btIDE"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
@@ -116,9 +110,66 @@
 
                     <Button
 
+                        android:id="@+id/btUdi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btUdi2" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/btProbSoc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btProbSoc" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/btIngles2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btIngles2" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+
                         android:id="@+id/btEstadistica"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
@@ -126,19 +177,6 @@
 
                         android:background="@drawable/boton_sin_puntas"
                         android:text="@string/btEstadistica" />
-
-                    <Button
-
-                        android:id="@+id/btProgramacion"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
-
-                        android:background="@drawable/boton_sin_puntas"
-                        android:text="@string/btProgramacion" />
 
                 </TableRow>
 
@@ -149,27 +187,14 @@
 
                     <Button
                         android:id="@+id/btBD"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:background="@drawable/boton_sin_puntas"
                         android:text="@string/btBD" />
-
-                    <Button
-
-                        android:id="@+id/btISO2"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
-
-                        android:background="@drawable/boton_sin_puntas"
-                        android:text="@string/btISO2" />
 
                 </TableRow>
 
@@ -181,8 +206,8 @@
                     <Button
 
                         android:id="@+id/btPracProf"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"

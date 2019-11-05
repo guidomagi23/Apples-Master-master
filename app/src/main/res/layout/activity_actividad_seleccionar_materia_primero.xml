@@ -53,8 +53,8 @@
 
                     <Button
                         android:id="@+id/btIngenieria"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
@@ -64,10 +64,17 @@
                         android:onClick="accionarBotonIngenieria"
                         android:text="@string/btIngenieria" />
 
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
                     <Button
                         android:id="@+id/btMatematica"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
@@ -75,7 +82,6 @@
                         android:background="@drawable/boton_sin_puntas"
 
                         android:text="@string/btMatematica" />
-
                 </TableRow>
 
                 <TableRow
@@ -85,8 +91,8 @@
 
                     <Button
                         android:id="@+id/btTecnologia"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
@@ -95,10 +101,35 @@
 
                         android:text="@string/btTecnologia" />
 
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btAdministración"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/boton_sin_puntas"
+
+                        android:text="@string/btAdministracion" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
                     <Button
                         android:id="@+id/btInglesI"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
@@ -115,8 +146,8 @@
 
                     <Button
                         android:id="@+id/btLogica"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
@@ -124,18 +155,6 @@
                         android:background="@drawable/boton_sin_puntas"
 
                         android:text="@string/btLogica" />
-
-                    <Button
-                        android:id="@+id/btAdministración"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
-                        android:background="@drawable/boton_sin_puntas"
-
-                        android:text="@string/btAdministracion" />
 
                 </TableRow>
 
@@ -146,27 +165,14 @@
 
                     <Button
                         android:id="@+id/btComunicacion"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:background="@drawable/boton_sin_puntas"
                         android:text="@string/btComunicacion" />
-
-                    <Button
-
-                        android:id="@+id/btUdi"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
-
-                        android:background="@drawable/boton_sin_puntas"
-                        android:text="@string/btUdi" />
 
                 </TableRow>
 
@@ -177,9 +183,28 @@
 
                     <Button
 
+                        android:id="@+id/btUdi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+
+                        android:background="@drawable/boton_sin_puntas"
+                        android:text="@string/btUdi" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+
                         android:id="@+id/btSO"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
@@ -214,5 +239,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
